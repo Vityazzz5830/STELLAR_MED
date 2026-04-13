@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+	<title>STELLAR MED / ГЛАВНАЯ</title>
+</head>
+<body>
+	<div class="wrapper ">
+		<header class="header">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="header_content">
+						<a class="header_content_logo" href="index.html">
+							<img src="img/header_logo.svg" alt="">
+						</a>
+						<nav class="header_content_nav">
+							<ul class="header_content_nav_list">
+								<li class="header_content_nav_list_item">
+									<a href="#">
+										<p>Аппараты</p>
+										<img src="img/header_arrow.svg" alt="">
+									</a>
+									<div class="dropdown">
+										<div class="dropdown_container">
+											<a href="#">
+											    Аппарат 1
+											</a>
+											<a href="#">
+											 	Аппарат 2
+											</a>
+										    <a href="#">
+											 	Аппарат 3
+											</a>
+										</div>
+								    </div>
+								</li>
+								<li class="header_content_nav_list_item">
+									<a href="#">
+										<p>Клиентам</p>
+										<img src="img/header_arrow.svg" alt="">
+									</a>
+									<div class="dropdown">
+										<div class="dropdown_container">
+											<a href="#">
+											    Клиентам 1
+											</a>
+											<a href="#">
+											 	Клиентам 2
+											</a>
+										    <a href="#">
+											 	Клиентам 3
+											</a>
+										</div>
+								    </div>
+								</li>
+								<li class="header_content_nav_list_item">
+									<a href="#">
+										Обучение
+									</a>
+								</li>
+								<li class="header_content_nav_list_item">
+									<a href="#">
+										Публикации
+									</a>
+								</li>
+								<li class="header_content_nav_list_item">
+									<a href="#">
+										О компании
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="header_content_buttons">
+							<a class="header_content_buttons_phone" href="tel:+70000000000">
+								<img src="img/header_phone.svg" alt="">
+							</a>
+							<a class="header_content_buttons_mail" href="#">
+								Письмо менеджеру
+							</a>
+							<button class="header_content_burger" id="hamb"> 
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+						</div>
+					</div>
+					
+				</div>
+					
+			</div>
+		</header>
+
+		<div class="popup" id="popup">
+			<div class="batmenu" id="batmenu">
+				<div class="main__container main__container-popup">
+					<div class="close_popup" id="close_popup">
+			    	</div>  
+			    	<div class="burger_content">
+			    		<div class="burger_content_container">
+			    			<div class="burger_content_list">
+				    			<nav>
+					    			<ul class="burger_content_list_items">
+					    				<li class="burger_content_list_item">
+					    					<a href="#">
+					    						Аппараты
+					    					</a>
+					    					<div class="burger_content_list_item_catalog">
+					    						<a href="#">
+					    							Аппарат 1
+					    						</a>
+					    						<a href="#">
+					    							Аппарат 2
+					    						</a>
+					    						<a href="#">
+					    							Аппарат 3
+					    						</a>
+					    					</div>
+					    				</li>
+					    				<li class="burger_content_list_item">
+					    					<a href="#">
+					    						Клиентам
+					    					</a>
+					    					<div class="burger_content_list_item_catalog">
+					    						<a href="#">
+					    							Клиентам 1
+					    						</a>
+					    						<a href="#">
+					    							Клиентам 2
+					    						</a>
+					    						<a href="#">
+					    							Клиентам 3
+					    						</a>
+					    					</div>
+					    				</li>
+					    				<li class="burger_content_list_item">
+					    					<a href="№">
+					    						Обучение
+					    					</a>
+					    				</li>
+					    				<li class="burger_content_list_item">
+					    					<a href="№">
+					    						Публикации
+					    					</a>
+					    				</li>
+					    				<li class="burger_content_list_item">
+					    					<a href="№">
+					    						О компании
+					    					</a>
+					    				</li>
+					    				<li class="burger_content_list_item">
+					    					<a class="header_content_buttons_mail" href="#">
+												Письмо менеджеру
+											</a>
+					    				</li>
+					    				
+					    			</ul>
+				    			</nav>
+			    			</div>
+			    		</div>
+			    	</div>    
+				</div>
+			</div>
+		</div>
+
+		<section class="firstsec_mainpage">
+			<div class="full_container full_container_firstsec_mainpage">
+				<div class="main__container">
+					<div class="firstsec_mainpage_content">
+						<h1>Инновационное оборудование <br>для эстетической медицины.</h1>
+						<p class="firstsec_mainpage_content_title">Инновационные аппараты для вашей клиники</p>
+						<a href="#">
+							<p>Перейти в каталог</p>
+							<div class="firstsec_mainpage_content_link">
+								<img src="img/firstsec_content_arrow.svg" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="bestsellerssec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="bestsellerssec_mainpage_content">
+						<div class="bestsellerssec_mainpage_content_header">
+							<h2>Бестселлеры</h2>
+							<div class="bestsellerssec_mainpage_content_header_buttons">
+								<div class="bestsellerssec_mainpage_content_header_buttons_slider_count">
+									<p class="bestsellerssec_mainpage_content_header_buttons_slider_count_js">1</p>
+									<div class="bestsellerssec_mainpage_content_header_buttons_slider_count_all">
+										<b>/</b>
+										<p class="bestsellerssec_mainpage_content_header_buttons_slider_count_all_js">2</p>
+									</div>
+								</div>
+								<div class="bestsellerssec_mainpage_content_slider_prev">
+									<img src="img/bestsellerssec_mainpage_content_slider_prev.svg" alt="">
+								</div>
+								<div class="bestsellerssec_mainpage_content_slider_next">
+									<img src="img/bestsellerssec_mainpage_content_slider_next.svg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="bestsellerssec_mainpage_content_slider">
+							<div class="bestsellerssec_mainpage_content_slider_item">
+								<img src="img/bestsellerssec_mainpage_content_slider_item_1.png" alt="">
+								<div class="bestsellerssec_mainpage_content_slider_item_title">
+									<h3>Ellisys Sense</h3>
+									<p>Программируемый микроигольчатый <br>  RF-лифтинг с технологией Smart Double <br> Shot и Smart Vacuum </p>
+									<div class="bestsellerssec_mainpage_content_slider_item_title_buttons">
+										<a href="#">
+											Подробнее
+										</a>
+										<div class="bestsellerssec_mainpage_content_slider_item_title_buttons_slider">
+											<div class="bestsellerssec_mainpage_content_slider_prev">
+												<img src="img/bestsellerssec_mainpage_content_slider_prev.svg" alt="">
+											</div>
+											<div class="bestsellerssec_mainpage_content_slider_next">
+												<img src="img/bestsellerssec_mainpage_content_slider_next.svg" alt="">
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
+							<div class="bestsellerssec_mainpage_content_slider_item">
+								<img src="img/bestsellerssec_mainpage_content_slider_item_2.png" alt="">
+								<div class="bestsellerssec_mainpage_content_slider_item_title">
+									<h3>Piamo Nobility</h3>
+									<p>Ультрасовременная RF-система оснащенная технологиями HIFER и PVP для косметологических процедур по лицу и телу</p>
+									<div class="bestsellerssec_mainpage_content_slider_item_title_buttons">
+										<a href="#">
+											Подробнее
+										</a>
+										<div class="bestsellerssec_mainpage_content_slider_item_title_buttons_slider">
+											<div class="bestsellerssec_mainpage_content_slider_prev">
+												<img src="img/bestsellerssec_mainpage_content_slider_prev.svg" alt="">
+											</div>
+											<div class="bestsellerssec_mainpage_content_slider_next">
+												<img src="img/bestsellerssec_mainpage_content_slider_next.svg" alt="">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="bestsellerssec_mainpage_content_slider_item bestsellerssec_mainpage_content_slider_item_fix">
+								<img src="img/bestsellerssec_mainpage_content_slider_item_3.png" alt="">
+								<div class="bestsellerssec_mainpage_content_slider_item_title">
+									<h3>Eve Lab</h3>
+									<p>3D-сканирование лица за 25 сек. с ИИ-анализом для безупречной диагностики, персонализированных планов лечения и видимых...</p>
+									<div class="bestsellerssec_mainpage_content_slider_item_title_buttons">
+										<a href="#">
+											Подробнее
+										</a>
+										<div class="bestsellerssec_mainpage_content_slider_item_title_buttons_slider">
+											<div class="bestsellerssec_mainpage_content_slider_prev">
+												<img src="img/bestsellerssec_mainpage_content_slider_prev.svg" alt="">
+											</div>
+											<div class="bestsellerssec_mainpage_content_slider_next">
+												<img src="img/bestsellerssec_mainpage_content_slider_next.svg" alt="">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="bestsellerssec_mainpage_content_slider_item">
+								<img src="img/bestsellerssec_mainpage_content_slider_item_1.png" alt="">
+								<div class="bestsellerssec_mainpage_content_slider_item_title">
+									<h3>Ellisys Sense</h3>
+									<p>Программируемый микроигольчатый <br>  RF-лифтинг с технологией Smart Double <br> Shot и Smart Vacuum </p>
+									<div class="bestsellerssec_mainpage_content_slider_item_title_buttons">
+										<a href="#">
+											Подробнее
+										</a>
+										<div class="bestsellerssec_mainpage_content_slider_item_title_buttons_slider">
+											<div class="bestsellerssec_mainpage_content_slider_prev">
+												<img src="img/bestsellerssec_mainpage_content_slider_prev.svg" alt="">
+											</div>
+											<div class="bestsellerssec_mainpage_content_slider_next">
+												<img src="img/bestsellerssec_mainpage_content_slider_next.svg" alt="">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bestsellerssec_mainpage_warranty">
+							<div class="bestsellerssec_mainpage_warranty_header">
+								<h2>Мы поставляем не аппараты, а гарантию вашего успеха</h2>
+								<p>На рынке эстетической медицины высокая цена ошибки. Мы понимаем, что для стабильного роста клинике нужен не просто поставщик, а надежный партнер, который гарантирует качество оборудования, обучение и сервис.</p>
+							</div>
+							<div class="bestsellerssec_mainpage_warranty_list">
+								<div class="bestsellerssec_mainpage_warranty_list_line">
+									<div class="bestsellerssec_mainpage_warranty_list_line_item line_active">
+										
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+									</div>
+									<div class="bestsellerssec_mainpage_warranty_list_line_item">
+										
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+									</div>
+									<div class="bestsellerssec_mainpage_warranty_list_line_item">
+										
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+									</div>
+									<div class="bestsellerssec_mainpage_warranty_list_line_item">
+										
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+									</div>
+									<div class="bestsellerssec_mainpage_warranty_list_line_item">
+										
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+									</div>
+								</div>
+								<div class="bestsellerssec_mainpage_warranty_list_item item_active">
+									<div class="bestsellerssec_mainpage_warranty_list_item_number">
+										01
+									</div>
+									<div class="bestsellerssec_mainpage_warranty_list_item_title">
+										<h4>Гарантия Качества</h4>
+										<p>Только аппараты, сертифицированные в России, Европе и США. Прямые официальные поставки и полное соответствие российским и международным протоколам безопасности</p>
+									</div>
+								</div>
+								<div class="bestsellerssec_mainpage_warranty_list_item">
+									<div class="bestsellerssec_mainpage_warranty_list_item_number">
+										02
+									</div>
+									<div class="bestsellerssec_mainpage_warranty_list_item_title">
+										<h4>Клиническая Поддержка</h4>
+										<p>Обучение от сертифицированных клинических тренеров. Проведение мастер-классов, вебинаров и семинаров для максимальной эффективности каждой процедуры.</p>
+									</div>
+								</div>
+								<div class="bestsellerssec_mainpage_warranty_list_item">
+									<div class="bestsellerssec_mainpage_warranty_list_item_number">
+										03
+									</div>
+									<div class="bestsellerssec_mainpage_warranty_list_item_title">
+										<h4>Надежный Сервис</h4>
+										<p>100 % постпродажное обслуживание. Собственная сервисная служба и отдел логистики. Обслуживание 24/7.</p>
+									</div>
+								</div>
+								<div class="bestsellerssec_mainpage_warranty_list_item">
+									<div class="bestsellerssec_mainpage_warranty_list_item_number">
+										04
+									</div>
+									<div class="bestsellerssec_mainpage_warranty_list_item_title">
+										<h4>Полная маркетинговая поддержка</h4>
+										<p>100 % постпродажное обслуживание. Собственная сервисная служба и отдел логистики. Обслуживание 24/7.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bestsellerssec_mainpage_video">
+							<img src="img/bestsellerssec_mainpage_video.png" alt="">
+							<button class="videosec_mainpage_content_main_video_play playBtn" id="playBtn">
+								<svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M15 7.1991C16.3333 7.9689 16.3333 9.8934 15 10.6632L3 17.5914C1.66667 18.3612 -2.80202e-06 17.399 -2.73473e-06 15.8594L-2.12904e-06 2.00295C-2.06175e-06 0.463349 1.66666 -0.498903 3 0.270898L15 7.1991Z" fill="white"/>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="technologysec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="technologysec_mainpage_content">
+						<div class="technologysec_mainpage_content_header">
+							<h2>Выберите технологию, которая принесет успех вашей клинике</h2>
+							<p>Мы собрали для вас только те аппараты, которые прошли строгую клиническую проверку и доказали свою экономическую эффективность. </p>
+						</div>
+						<div class="technologysec_mainpage_content_list">
+							<div class="technologysec_mainpage_content_list_item">
+								<img src="img/technologysec_mainpage_content_list_item_1.png" alt="">
+								<div class="technologysec_mainpage_content_list_item_title">
+									<div class="technologysec_mainpage_content_list_item_title_container">
+										<h3>Аппараты RF-лифтинга</h3>
+									<p>Золотой стандарт омоложения. Гарантия стабильного спроса и минимальной реабилитации для максимальной загрузки кабинета.</p>
+									</div>
+									
+
+									<a href="#">
+										Подробнее
+									</a>
+								</div>
+								<div class="technologysec_mainpage_content_list_item_mobilelink">
+									<img src="img/firstsec_content_arrow.svg" alt="">
+								</div>
+							</div>
+							<div class="technologysec_mainpage_content_list_item">
+								<img src="img/technologysec_mainpage_content_list_item_2.png" alt="">
+								<div class="technologysec_mainpage_content_list_item_title">
+									<div class="technologysec_mainpage_content_list_item_title_container">
+										<h3>Аппараты SMAS-лифтинга</h3>
+										<p>Неинвазивная подтяжка с WOW-эффектом. Высокий средний чек и эксклюзивность процедуры, привлекающая премиум-клиентов. </p>
+									</div>
+									<a href="#">
+										Подробнее
+									</a>
+								</div>
+								<div class="technologysec_mainpage_content_list_item_mobilelink">
+									<img src="img/firstsec_content_arrow.svg" alt="">
+								</div>
+							</div>
+							<div class="technologysec_mainpage_content_list_item">
+								<img src="img/technologysec_mainpage_content_list_item_3.png" alt="">
+								<div class="technologysec_mainpage_content_list_item_title">
+									<div class="technologysec_mainpage_content_list_item_title_container">
+										<h3>Аппараты IPL-терапии</h3>
+										<p>Широкий спектр применения (фотоэпиляция, лечение пигментации и сосудов). Аппараты-мультизадачники с быстрой окупаемостью.</p>
+									</div>
+									<a href="#">
+										Подробнее
+									</a>
+								</div>
+								<div class="technologysec_mainpage_content_list_item_mobilelink">
+									<img src="img/firstsec_content_arrow.svg" alt="">
+								</div>
+							</div>
+							<div class="technologysec_mainpage_content_list_item">
+								<img src="img/technologysec_mainpage_content_list_item_4.png" alt="">
+								<div class="technologysec_mainpage_content_list_item_title">
+									<div class="technologysec_mainpage_content_list_item_title_container">
+										<h3>Аппараты для диагностики</h3>
+										<p>Фундамент доверия. Точный анализ кожи для персонализации лечения и повышения лояльности пациента.</p>
+									</div>
+									<a href="#">
+										Подробнее
+									</a>
+								</div>
+								<div class="technologysec_mainpage_content_list_item_mobilelink">
+									<img src="img/firstsec_content_arrow.svg" alt="">
+								</div>
+							</div>
+						</div>
+            			<a href="#" class="gradient-btn">
+            				<p>Перейти в каталог</p>
+							<div class="firstsec_mainpage_content_link">
+								<img src="img/firstsec_content_arrow.svg" alt="">
+							</div>
+            			</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="reputationsec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="reputationsec_mainpage_content">
+						<div class="reputationsec_mainpage_content_header">
+							<h2>Нам доверяют лидеры эстетической медицины</h2>
+							<p>В эстетической медицине нельзя рисковать репутацией. Мы строим долгосрочные отношения с нашими клиентами, опираясь на более чем десятилетний опыт и безупречную репутацию в России и СНГ. Ваши инвестиции защищены нашим опытом.</p>
+						</div>
+						<div class="reputationsec_mainpage_content_cards">
+							<div class="reputationsec_mainpage_content_cards_item">
+								<div class="reputationsec_mainpage_content_cards_item_header">
+									<h4>10+ лет</h4>
+									<div class="reputationsec_mainpage_content_cards_item_header_count">
+										01
+									</div>
+								</div>
+								<p>На рынке медицинского оборудования.</p>
+							</div>
+							<div class="reputationsec_mainpage_content_cards_item">
+								<div class="reputationsec_mainpage_content_cards_item_header">
+									<h4>98% довольных клиентов</h4>
+									<div class="reputationsec_mainpage_content_cards_item_header_count">
+										03
+									</div>
+								</div>
+								<p>Подтверждено отзывами</p>
+							</div>
+							<div class="reputationsec_mainpage_content_cards_item">
+								<div class="reputationsec_mainpage_content_cards_item_header">
+									<h4>1000+ клиник и салонов-партнеров</h4>
+									<div class="reputationsec_mainpage_content_cards_item_header_count">
+										02
+									</div>
+								</div>
+								<p>В России и СНГ</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="experiencesec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="experiencesec_mainpage_content">
+						<div class="experiencesec_mainpage_content_header">
+							<h2>Нам доверяют ведущие клиники России и СНГ</h2>
+							<p>Наш опыт подтвержден присутствием в [N-ое количество] городах и долгосрочным сотрудничеством с лидерами эстетической медицины</p>
+						</div>
+						<div class="experiencesec_mainpage_content_cards">
+							<div class="experiencesec_mainpage_content_cards_item">
+								<img src="img/experiencesec_mainpage_content_cards_item_1.svg" alt="">
+							</div>
+							<div class="experiencesec_mainpage_content_cards_item">
+								<img src="img/experiencesec_mainpage_content_cards_item_2.svg" alt="">
+							</div>
+							<div class="experiencesec_mainpage_content_cards_item">
+								<img src="img/experiencesec_mainpage_content_cards_item_1.svg" alt="">
+							</div>
+							<div class="experiencesec_mainpage_content_cards_item">
+								<img src="img/experiencesec_mainpage_content_cards_item_4.svg" alt="">
+							</div>
+							<div class="experiencesec_mainpage_content_cards_item">
+								<img src="img/experiencesec_mainpage_content_cards_item_5.svg" alt="">
+							</div>
+							<div class="experiencesec_mainpage_content_cards_item">
+								<img src="img/experiencesec_mainpage_content_cards_item_1.svg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="reviewssec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="reviewssec_mainpage_content">
+						<div class="reviewssec_mainpage_content_header">
+							<h2>Отзывы</h2>
+							<a href="#" class="gradient-btn-reviewssec_mainpage">
+            					<p>Показать все</p>
+								<div class="firstsec_mainpage_content_link">
+									<img src="img/firstsec_content_arrow.svg" alt="">
+								</div>
+            				</a>
+						</div>
+						<div class="reviewssec_mainpage_content_reviews">
+							<div class="reviewssec_mainpage_content_reviews_item">
+								<div class="reviewssec_mainpage_content_reviews_item_container">
+									<div class="reviewssec_mainpage_content_reviews_item_header">
+										<img src="img/photo_client.svg" alt="">
+										<div class="reviewssec_mainpage_content_reviews_item_header_title">
+											<h4>Кабаева Татьяна</h4>
+											<p>Врач-физиотерапевт, специалист по фото- и лазерной медицине</p>
+											<p>Центр красоты и здоровья «VL-clinic»</p>
+										</div>
+									</div>
+									<p class="reviewssec_mainpage_content_reviews_item_container_text">Наша клиника работает на Ellisys Sense больше полугода и уже получили отличные результаты! Для врача - широкая вариабельность настроек для каждого конкретного случая, умный аппарат для думающих врачей! Для пациента - комфорт, безопасность и максимальная эффективность! Спасибо компании за грамотное обучение с глубоким освещением физики данной технологии и применение на практике этих знаний!</p>
+								</div>
+								<a href="#">
+									Читать полностью
+								</a>
+							</div>
+							<div class="reviewssec_mainpage_content_reviews_item">
+								<div class="reviewssec_mainpage_content_reviews_item_container">
+									<div class="reviewssec_mainpage_content_reviews_item_header">
+										<img src="img/photo_client.svg" alt="">
+										<div class="reviewssec_mainpage_content_reviews_item_header_title">
+											<h4>Кабаева Татьяна</h4>
+											<p>Врач-физиотерапевт, специалист по фото- и лазерной медицине</p>
+											<p>Центр красоты и здоровья «VL-clinic»</p>
+										</div>
+									</div>
+									<p class="reviewssec_mainpage_content_reviews_item_container_text">Наша клиника работает на Ellisys Sense больше полугода и уже получили отличные результаты! Для врача - широкая вариабельность настроек для каждого конкретного случая, умный аппарат для думающих врачей! Для пациента - комфорт, безопасность и максимальная эффективность! Спасибо компании за грамотное обучение с глубоким освещением физики данной технологии и применение на практике этих знаний!</p>
+								</div>
+								<a href="#">
+									Читать полностью
+								</a>
+							</div>
+							<div class="reviewssec_mainpage_content_reviews_item">
+								<div class="reviewssec_mainpage_content_reviews_item_container">
+									<div class="reviewssec_mainpage_content_reviews_item_header">
+										<img src="img/photo_client.svg" alt="">
+										<div class="reviewssec_mainpage_content_reviews_item_header_title">
+											<h4>Кабаева Татьяна</h4>
+											<p>Врач-физиотерапевт, специалист по фото- и лазерной медицине</p>
+											<p>Центр красоты и здоровья «VL-clinic»</p>
+										</div>
+									</div>
+									<p class="reviewssec_mainpage_content_reviews_item_container_text">Наша клиника работает на Ellisys Sense больше полугода и уже получили отличные результаты! Для врача - широкая вариабельность настроек для каждого конкретного случая, умный аппарат для думающих врачей! Для пациента - комфорт, безопасность и максимальная эффективность! Спасибо компании за грамотное обучение с глубоким освещением физики данной технологии и применение на практике этих знаний!</p>
+								</div>
+								<a href="#">
+									Читать полностью
+								</a>
+							</div>
+						</div>
+						<a href="#" class="gradient-btn2-reviewssec_mainpage">
+            				<p>Показать еще</p>
+							<div class="firstsec_mainpage_content_link">
+								<img src="img/firstsec_content_arrow.svg" alt="">
+							</div>
+            			</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="studysec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="studysec_mainpage_content">
+						<div class="studysec_mainpage_content_header">
+							<h2>Обучение и поддержка</h2>
+						</div>
+						<div class="studysec_mainpage_content_list">
+							<div class="studysec_mainpage_content_list_item">
+								<div class="studysec_mainpage_content_list_item_header">
+									<h4>Обучение персонала</h4>
+									<div class="studysec_mainpage_content_list_item_header_count">
+										01
+									</div>
+								</div>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...</p>
+							</div>
+							<div class="studysec_mainpage_content_list_item">
+								<div class="studysec_mainpage_content_list_item_header">
+									<h4>Cервисная поддержка</h4>
+									<div class="studysec_mainpage_content_list_item_header_count">
+										02
+									</div>
+								</div>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...</p>
+							</div>
+							<div class="studysec_mainpage_content_list_item">
+								<div class="studysec_mainpage_content_list_item_header">
+									<h4>Маркетинговая поддержка</h4>
+									<div class="studysec_mainpage_content_list_item_header_count">
+										03
+									</div>
+								</div>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took...</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="blogsec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="blogsec_mainpage_content">
+						<div class="blogsec_mainpage_content_header">
+							<h2>Блог и анонсы</h2>
+							<a href="#" class="gradient-btn-blogsec_mainpage">
+            					<p>Показать все</p>
+								<div class="firstsec_mainpage_content_link">
+									<img src="img/firstsec_content_arrow.svg" alt="">
+								</div>
+            				</a>
+						</div>
+						<div class="blogsec_mainpage_content_list">
+							<div class="blogsec_mainpage_content_list_item">
+								<div class="blogsec_mainpage_content_list_item_title">
+									<div class="blogsec_mainpage_content_list_item_title_container">
+										<h4>Ellisys Sense</h4>
+										<p>Программируемый микроигольчатый  RF-лифтинг с технологией Smart Double Shot и Smart Vacuum </p>
+									</div>
+									
+									<a href="#">
+										Подробнее
+									</a>
+								</div>
+							</div>
+							<div class="blogsec_mainpage_content_list_item">
+								<div class="blogsec_mainpage_content_list_item_title">
+									<div class="blogsec_mainpage_content_list_item_title_container">
+										<h4>Главный редактор YAVMODE — LUXE in Russia оценила сыворотку нового поколения SENSE KISS EXO</h4>
+										<p></p>
+									</div>
+									
+									<a href="#">
+										Подробнее
+									</a>
+								</div>
+							</div>
+							<div class="blogsec_mainpage_content_list_item">
+								<div class="blogsec_mainpage_content_list_item_title">
+									<div class="blogsec_mainpage_content_list_item_title_container">
+										<h4>Компания STELLAR MED приняла участие в XIV конгрессе «Пластическая хирургия, эстетическая медицина и косметология»</h4>
+										<p></p>
+									</div>
+									
+									<a href="#">
+										Подробнее
+									</a>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="gradient-btn2-blogsec_mainpage">
+            				<p>Показать еще</p>
+							<div class="firstsec_mainpage_content_link">
+								<img src="img/firstsec_content_arrow.svg" alt="">
+							</div>
+            			</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="mapsec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="mapsec_mainpage_content">
+						<div class="mapsec_contactspage_map" id="map">
+				
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<footer>
+			<div class="full_container">
+				<div class="main__container">
+					<div class="footer_content">
+						<div class="footer_content_leftpart">
+							<h2>Сделайте первый шаг  к модернизации вашей практики уже сегодня</h2>
+							<form class="footer_content_leftpart_form" action="#">
+								<input type="text" name="" id="" placeholder="Ваше Имя" required="required">
+								<input type="tel" name="" id="" placeholder="+7" required="required" data-tel-input>
+								<input type="email" name="" id="" placeholder="Email" required="required">
+								<input type="text" name="" id="" placeholder="Комментарий">
+								<label class="custom_checkbox">
+								  	<input type="checkbox" required>
+								  	<span class="checkmark"></span>
+								  		<div class="checkbox_title">
+											<p>Я соглашаюсь с политикой обработки</p>
+											<a href="#">персональных данных</a>
+										</div>
+								</label>
+								<button class="footer_content_leftpart_form_sendbtn">
+		            				<p>Отправить</p>
+									<div class="firstsec_mainpage_content_link">
+										<img src="img/firstsec_content_arrow.svg" alt="">
+									</div>
+		            			</button>
+							</form>
+						</div>
+						<div class="footer_content_rightpart">
+							<div class="footer_content_rightpart_info">
+								<div class="footer_content_rightpart_title">
+									<div class="footer_content_rightpart_title_navmenu">
+										<a href="#">Аппараты</a>
+										<a href="#">Ellisys Sense</a>
+										<a href="#">Клиентам</a>
+										<a href="#">Ellisys Sense</a>
+										<a href="#">Обучение</a>
+										<a href="#">Ellisys Sense</a>
+										<a href="#">Публикации</a>
+										<a href="#">Ellisys Sense</a>
+										<a href="#">О компании</a>
+										<a href="#">Ellisys Sense</a>
+									</div>
+									
+								</div>
+								<div class="footer_content_rightpart_contacts">
+									<div class="footer_content_rightpart_contacts_mobile">
+										<a class="footer_content_rightpart_title_logo" href="index.html">
+											<img src="img/header_logo.svg" alt="">
+										</a>
+										<a href="mailto:info@stellarmed.ru">info@stellarmed.ru</a>
+									</div>
+									<a href="tel:+79267522500">
+										+7 (926) 752 25 00
+									</a>
+									<p>Москва, ул. Херсонская 43 к3, офис 416</p>
+								</div>
+								<div class="footer_content_rightpart_policy">
+									<a href="#">
+										Согласие на обработку персональных данных
+									</a>
+									<a href="#">
+										Политика обработки персональных данных
+									</a>
+								</div>
+							</div>
+							<a class="footer_content_rightpart_title_logo" href="index.html">
+								<img src="img/header_logo.svg" alt="">
+							</a>
+						</div>
+						
+					</div>
+					<div class="footer_content_copyrights">
+						<p>2025 StellarMed</p>
+						<a href="mailto:info@stellarmed.ru">info@stellarmed.ru</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+		<script src="js/jquery-3.6.2.min.js"></script>
+	 	<script src="js/slick.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+		<script src="js/main.js"></script> 
+	</div>
+</body>
+</html>
+
